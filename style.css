@@ -1,3 +1,23 @@
-h1{
- background-color: rgb(245, 183, 242);
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
 }
+
+:root{
+--color--1: rgb(222, 170, 233);
+--color--2: rgb(212, 116, 196);
+--color--3: rgb(188, 92, 218);
+--color--4: rgb(190, 81, 169);
+--color--5: aliceblue;
+--color--6: rgb(198, 25, 241);
+}
+
+body{
+    background-color: var(--color--5);
+    color: var(--color--6);
+}
+
+
+
